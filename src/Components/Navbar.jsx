@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="flex flex-row justify-between items-center font-bold text-gray-800 space-x-10  h-[50px]">
       <div className="flex-grow text-center space-x-6">
-        <NavLink to="/vw" className="text-[#181416] hover:underline">
+        <NavLink to="/vw/homepage" className="text-[#181416] hover:underline">
           Home
         </NavLink>
         <NavLink to="/vw/wardrobe" className="text-[#181416] hover:underline">

@@ -28,6 +28,7 @@ const Wardrobe = () => {
   return (
     <div>
       <Navbar />
+      <Labels/>
       <Upload />
       <div className="p-4 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
         {localStorageData.map((item) => (
